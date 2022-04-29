@@ -9,3 +9,5 @@ for n in filter(ispositive, nums):
 
 for c in filter(str.isupper, "SomeUpperCase"):
     print(c)
+
+print(10, end='*')
