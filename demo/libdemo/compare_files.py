@@ -5,6 +5,7 @@ found = False
 row = 1
 for firstline in f1.readlines():
     secondline = f2.readline()
+    # Exit if second file is shorter than first
     if len(secondline) == 0:  # EOF on second file
         print(f'Differ in row {row}, col 1')
         found = True
@@ -28,8 +29,9 @@ for firstline in f1.readlines():
     # Come out of outer loop if chars diff
     if found:
         break
-    elif len(secondline) >= col:
+    elif len(secondline) > col:
         print(f'Differ in row {row}, col {col + 1}')
+        found = True
         break
 
     row += 1

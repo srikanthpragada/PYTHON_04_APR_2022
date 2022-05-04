@@ -3,4 +3,3 @@ That is also fine
 This is thrid line
 Here it differs
 This is same
-Another line
