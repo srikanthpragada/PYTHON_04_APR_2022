@@ -5,7 +5,7 @@ if resp.status_code != 200:
     print("Sorry! Could not get details!")
     exit(1)
 
-countries = resp.json()  # Convert JSON to dict
+countries = resp.json()  # Convert array of JSON to list of dict
 
 for c in sorted(countries, key=lambda cnt: cnt['population'], reverse=True)[:10]:
     capital = c.get('capital', ['None'])[0]
