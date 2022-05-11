@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="" ?>
+<courses>
+    <course>
+        <title>Python</title>
+        <duration>36 hours</duration>
+        <fee currency="USD">75</fee>
+    </course>
+    <course>
+        <title>SQL Bootcamp</title>
+        <duration>12 hours</duration>
+        <fee currency="INR">1500</fee>
+    </course>
+    <course>
+        <title>Java EE</title>
+        <duration>40 hours</duration>
+        <fee currency="INR">4500</fee>
+    </course>
+</courses>
